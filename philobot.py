@@ -4,27 +4,27 @@ import random
 name = input("Enter your first name:\n").lower().strip() 
 if name.startswith("a"): 
     a = ["Awesome", "Ambitious", "Authentic", "Adaptable", "Aesthetic", "Adventurous", "Ace", "Artsy", "Affable", "All-star"]
-    print( "Hey",random.choice(a),f"{name.capitalize()}!") 
+    print( f"Hey {random.choice(a)} {name.capitalize()}!") 
 
 elif name.startswith("b"):
     b = ["Bold", "Bright", "Brilliant", "Balanced", "Boss", "Bubbly", "Brave", "Big-hearted", "Buzzing", "Badass"]
-    print( "Hey",random.choice(b),f"{name.capitalize()}!") 
+    print( f"Hey {random.choice(b)} {name.capitalize()}!") 
 
 elif name.startswith("c"):
     c = ["Creative", "Cool", "Confident", "Chill", "Charismatic", "Curious", "Clutch", "Cheerful", "Clever", "Capable"]
-    print( "Hey",random.choice(c),f"{name.capitalize()}!") 
+    print( f"Hey {random.choice(c)} {name.capitalize()}!") 
 
 elif name.startswith("d"):
     d = ["Driven", "Dynamic", "Dependable", "Daring", "Disciplined", "Down-to-earth", "Determined", "Dazzling", "Dreamy", "Distinctive"]
-    print( "Hey",random.choice(d),f"{name.capitalize()}!") 
+    print( f"Hey {random.choice(d)} {name.capitalize()}!") 
 
 elif name.startswith("e"):
     e = ["Energetic", "Epic", "Empathetic", "Elite", "Expressive", "Easygoing", "Exciting", "Encouraging", "Eloquent", "Exceptional"]
-    print( "Hey",random.choice(e),f"{name.capitalize()}!") 
+    print( f"Hey {random.choice(e)} {name.capitalize()}!") 
 
 elif name.startswith("f"):
     f = ["Fearless", "Friendly", "Focused", "Fresh", "Funny", "Fantastic", "Flexible", "Faithful", "Fierce", "Free-spirited"]
-    print( "Hey",random.choice(f),f"{name.capitalize()}!") 
+    print( f"Hey {random.choice(f)} {name.capitalize()}!") 
 
 elif name.startswith("g"):
     g = ["Genuine", "Grounded", "Gifted", "Generous", "Graceful", "Goal-oriented", "Glowing", "Great-hearted", "Gallant", "Game-changing"] 
@@ -466,5 +466,4 @@ By doubting everything except the existence of his own thinking mind, he attempt
  
  else: 
   print ("-Please enter the name out of the options given below:") 
-#END      
-     
+#END f     {r   
