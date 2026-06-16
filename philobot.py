@@ -1,11 +1,112 @@
 # Aim to build a chatbot that answers philosophical questions, and indulges in meaningful convos. 
 import random
-name = input('''-Please Enter Your Name!
--''') 
+#INTRODUCTION BEGINNING
+name = input("Enter your first name:\n").lower().strip() 
+if name.startswith("a"): 
+    a = ["Awesome", "Ambitious", "Authentic", "Adaptable", "Aesthetic", "Adventurous", "Ace", "Artsy", "Affable", "All-star"]
+    print( "Hey",random.choice(a),f"{name.capitalize()}!") 
+
+elif name.startswith("b"):
+    b = ["Bold", "Bright", "Brilliant", "Balanced", "Boss", "Bubbly", "Brave", "Big-hearted", "Buzzing", "Badass"]
+    print( "Hey",random.choice(b),f"{name.capitalize()}!") 
+
+elif name.startswith("c"):
+    c = ["Creative", "Cool", "Confident", "Chill", "Charismatic", "Curious", "Clutch", "Cheerful", "Clever", "Capable"]
+    print( "Hey",random.choice(c),f"{name.capitalize()}!") 
+
+elif name.startswith("d"):
+    d = ["Driven", "Dynamic", "Dependable", "Daring", "Disciplined", "Down-to-earth", "Determined", "Dazzling", "Dreamy", "Distinctive"]
+    print( "Hey",random.choice(d),f"{name.capitalize()}!") 
+
+elif name.startswith("e"):
+    e = ["Energetic", "Epic", "Empathetic", "Elite", "Expressive", "Easygoing", "Exciting", "Encouraging", "Eloquent", "Exceptional"]
+    print( "Hey",random.choice(e),f"{name.capitalize()}!") 
+
+elif name.startswith("f"):
+    f = ["Fearless", "Friendly", "Focused", "Fresh", "Funny", "Fantastic", "Flexible", "Faithful", "Fierce", "Free-spirited"]
+    print( "Hey",random.choice(f),f"{name.capitalize()}!") 
+
+elif name.startswith("g"):
+    g = ["Genuine", "Grounded", "Gifted", "Generous", "Graceful", "Goal-oriented", "Glowing", "Great-hearted", "Gallant", "Game-changing"] 
+    print( f"Hey {random.choice(g)} {name.capitalize()}!")  
+
+elif name.startswith("h"):
+    h = ["Honest", "Humble", "Helpful", "Hardworking", "Hilarious", "Hopeful", "Heroic", "Heartwarming", "Hyped", "Harmonious"]
+    print( f"Hey {random.choice(h)} {name.capitalize()}!")
+
+elif name.startswith("i"):
+    i =  ["Iconic", "Intelligent", "Innovative", "Inspiring", "Insightful", "Independent", "Imaginative", "Influential", "Inventive", "Irreplaceable"]
+    print( f"Hey {random.choice(i)} {name.capitalize()}!")
+
+elif name.startswith("j"):
+    j = ["Joyful", "Jolly", "Jovial", "Just", "Jazzy", "Judicious", "Jubilant", "Jam-packed", "Jaunty", "Jet-set"]
+    print( f"Hey {random.choice(j)} {name.capitalize()}!")
+
+elif name.startswith("k"):
+    k = ["Kind", "Keen", "Knowledgeable", "Kingly", "Kickass", "Kindhearted", "Knockout", "Key-player", "Kinetic", "Krisp"]
+    print( f"Hey {random.choice(k)} {name.capitalize()}!")
+
+elif name.startswith("l"):
+    l = ["Legendary", "Loyal", "Lively", "Lovable", "Level-headed", "Lighthearted", "Limitless", "Lucky", "Leader-like", "Lit"]
+    print( f"Hey {random.choice(l)} {name.capitalize()}!")
+
+elif name.startswith("m"):
+    m = ["Magnetic", "Mindful", "Motivated", "Mature", "Merciful", "Masterful", "Merry", "Memorable", "Modern", "Majestic"]
+    print( f"Hey {random.choice(m)} {name.capitalize()}!")
+
+elif name.startswith("n"):
+    n = ["Natural", "Noble", "Nice", "Next-level", "Nimble", "Neat", "Nurturing", "Noteworthy", "Nonstop", "Novel"]
+    print( f"Hey {random.choice(n)} {name.capitalize()}!")
+
+elif name.startswith("o"):
+    o = ["Optimistic", "Original", "Open-minded", "Outgoing", "Observant", "Outstanding", "Organized", "On-point", "One-of-a-kind", "Overachieving"]
+    print( f"Hey {random.choice(o)} {name.capitalize()}!")
+
+elif name.startswith("p"):
+    p = ["Positive", "Passionate", "Playful", "Powerful", "Persistent", "Patient", "Practical", "Popular", "Pioneering", "Phenomenal"]
+    print( f"Hey {random.choice(p)} {name.capitalize()}!")
+
+elif name.startswith("q"):
+    q =  ["Quick-witted", "Quality-driven", "Quirky", "Quietly-confident", "Quick-thinking", "Queenly", "Questing", "Qualified", "Quintessential", "Quick-learning"]
+    print( f"Hey {random.choice(q)} {name.capitalize()}!")
+
+elif name.startswith("r"):
+    r = ["Radiant", "Reliable", "Resilient", "Respectful", "Resourceful", "Remarkable", "Real", "Refreshing", "Rock-solid", "Revolutionary"]
+    print( f"Hey {random.choice(r)} {name.capitalize()}!")
+
+elif name.startswith("s"):
+    s = ["Smart", "Sharp", "Strong", "Supportive", "Stylish", "Self-aware", "Steady", "Social", "Spectacular", "Sincere"]
+    print( f"Hey {random.choice(s)} {name.capitalize()}!")
+
+elif name.startswith("t"):
+    t = ["Thoughtful", "Talented", "Trustworthy", "Tenacious", "Trendy", "Thriving", "Team-player", "Tactical", "Trailblazing", "Top-tier"]
+    print( f"Hey {random.choice(t)} {name.capitalize()}!")
+
+elif name.startswith("u"):
+    u = ["Unique", "Upbeat", "Unstoppable", "Understanding", "Uplifting", "Ultra-cool", "Unifying", "Unshakeable", "User-friendly", "Ultimate"]
+    print( f"Hey {random.choice(u)} {name.capitalize()}!")
+
+elif name.startswith("v"):
+    v =  ["Vibrant", "Visionary", "Versatile", "Valiant", "Vibey", "Valuable", "Virtuous", "Vivacious", "Victorious", "Voice-of-reason"]
+    print( f"Hey {random.choice(v)} {name.capitalize()}!")
+
+elif name.startswith("w"):
+    w = ["Wise", "Witty", "Warm", "Welcoming", "Well-rounded", "Wonderful", "Wholesome", "Winning", "World-class", "Wildly-creative"]
+    print( f"Hey {random.choice(w)} {name.capitalize()}!")
+
+elif name.startswith("x"):
+    x = ["X-factor", "Xenial", "Xtra-cool", "Xtraordinary", "Xpressive", "Xceptional", "Xciting", "Xpert", "Xuberant", "Xtreme"]
+    print( f"Hey {random.choice(x)} {name.capitalize()}!")
+
+elif name.startswith("y"):
+    y = ["Youthful", "Yare", "Yielding", "Yummy-vibes", "Yearning", "Yonder-thinking", "Yes-minded", "Yolo-worthy", "Younique", "Yippee-energy"]
+    print( f"Hey {random.choice(y)} {name.capitalize()}!")
+
+elif name.startswith("z"):
+    z = ["Zesty", "Zen", "Zippy", "Zealous", "Zooming", "Zingy", "Zappy", "Zero-quit", "Zodiac-level", "Zone-dominating"]
+    print( f"Hey {random.choice(z)} {name.capitalize()}!")
 
 
-
-print(f"-Hello learner!,{name}!") 
 intro_lines = {
     1: "-Welcome to Philobot, where questions matter more than answers.",
     2: "-Every philosophy began with someone asking 'Why?'.",
@@ -31,15 +132,17 @@ intro_lines = {
 print(random.choice(list(intro_lines.values())))
 print("-I am a prototype that is learning more about philosophy but can help you get overview of some important school of thoughts all over the world.") 
 print("-Which philosophy you would like to start with?")
+# INTRODUCTION ENDS 
 
 
-
+#MAIN CONTENT BEGINS
 while True:
  philosophy = input("Eastern or Western?\n").lower().strip() 
- if philosophy == "eastern": 
+ if philosophy == "eastern": #WHOLE CODE CONSISTS INFO ABOUT EASTERN BRANCH OF PHILOSOPHY 
+     #BEGINNING
      print("\n-Your interest seems to be more dramatic and a bit colourful than dried practical philosophies in the west...")
      print("-Well Glad to hear that.") 
-     while True: 
+     while True:  
       
       origin = input("\n-With which philosophy in the east you would want to start with?\nIndian/Chinese/Islamic\n" ).lower().strip()
       if origin == "indian":
@@ -175,6 +278,7 @@ it often asked:
      input("\n-Press Enter to exit:\n") 
      break
 
+ #END 
  
  
  
@@ -183,8 +287,8 @@ it often asked:
  
  
  
- 
- elif philosophy == "western": 
+ elif philosophy == "western": #WHOLE BRANCH CONSISTS INFO ABOUT WESTERN BRANCH OF PHILOSOPHY
+  #BEGINNING
   print("\n-Mhm.... you seem more inclined towards blunt and practical philosophy of the west... rather than the exaggerated fairy tale versions of the east.") 
   print("\n-The experience is gonna be amazing.") 
   while True: 
@@ -362,5 +466,5 @@ By doubting everything except the existence of his own thinking mind, he attempt
  
  else: 
   print ("-Please enter the name out of the options given below:") 
-     
+#END      
      
